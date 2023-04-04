@@ -21,15 +21,15 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 const App = () => {
-  return (
-    <Router>
-      <GlobalStyle />
-      <Routes>
-        <Route path="/" element={<Example />} />
-        <Route path="/dashboard/*" element={<Dashboard />} />
-      </Routes>
-    </Router>
-  );
+	return (
+	<Router>
+		<GlobalStyle />
+		<Routes>
+			<Route path='/demo' element={<Example />} />
+			<Route path='/*' element={<Dashboard />} />
+		</Routes>
+	</Router>
+	);
 };
 
 const root = ReactDOM.createRoot(document.getElementById('root')!);

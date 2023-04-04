@@ -1,9 +1,11 @@
 import React, { useRef } from 'react';
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 
 import { EditorRef } from '../../../src/types';
 import EmailEditor from '../../../src';
+import axios from 'axios';
+import { response } from 'express';
 
 const Container = styled.div`
   display: flex;
@@ -55,36 +57,71 @@ const Bar = styled.div`
 `;
 
 const DesignEdit = () => {
-  const emailEditorRef = useRef<EditorRef | null>(null);
+	const params = useParams();
+	let filename = params?.filename || null;
+	console.log('测试 filename：：', filename);
+	const emailEditorRef = useRef<EditorRef | null>(null);
 
-  const saveDesign = () => {
-    emailEditorRef.current?.saveDesign((design) => {
-      console.log('saveDesign', design);
-      alert('Design JSON has been logged in your developer console.');
-    });
-  };
+	const saveDesign = () => {
+		emailEditorRef.current?.saveDesign((design) => {
+			console.log('saveDesign', design);
+			filename = window.prompt('名字重复将会被覆盖\n请输入文件名字：：', filename || 'undefined');
+			axios.post(`http://0.0.0.0:3456/files/${filename}`, { content: design })
+			.then(response => {
+				console.log('保存结果', response.data);
+			})
+			.catch(err => {
+				console.error(err);
+			});
+		});
+	};
 
-  const exportHtml = () => {
-    emailEditorRef.current?.exportHtml((data) => {
-      const { html } = data;
-      console.log('exportHtml', html);
-      alert('Output HTML has been logged in your developer console.');
-    });
-  };
+	const exportHtml = () => {
+		emailEditorRef.current?.exportHtml((data) => {
+			const { html } = data;
+			console.log('exportHtml', html);
+			// 下载到本地
+			const blob = new Blob([html], { type: 'text/html' });
+			const url = window.URL.createObjectURL(blob);
+			const a = document.createElement('a');
+			a.href = url;
+			a.download = `${filename}.html`;
+			document.body.appendChild(a);
+			a.click();
+			document.body.removeChild(a);
+			URL.revokeObjectURL(url);
+		});
+	};
 
-  return (
-    <Container>
-      <Bar>
-        <h1>React Email Editor (Demo)</h1>
+	const onload = () => {
+		console.log('edit onload');
 
-        <Link to={`/dashboard`}>Dashboard</Link>
-        <button onClick={saveDesign}>Save Design</button>
-        <button onClick={exportHtml}>Export HTML</button>
-      </Bar>
+		if (filename) {
+			axios.get(`http://0.0.0.0:3456/files/${filename}`)
+			.then(response => {
+				console.log('获取文件内容：：', response.data);
+				// let json = JSON.parse(response.data);
+				emailEditorRef.current?.loadDesign(response.data);
+			})
+			.catch(error => {
+				console.error(error);
+			});
+		}
+	};
 
-      <EmailEditor ref={emailEditorRef} />
-    </Container>
-  );
+	return (
+	<Container>
+		<Bar>
+			<h1>React Email Editor (Demo)</h1>
+
+			<Link to={`/`}>Dashboard</Link>
+			<button onClick={saveDesign}>Save Design</button>
+			<button onClick={exportHtml}>Export HTML</button>
+		</Bar>
+
+		<EmailEditor ref={emailEditorRef} onLoad={onload} />
+	</Container>
+	);
 };
 
 export default DesignEdit;
