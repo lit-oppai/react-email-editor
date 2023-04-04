@@ -40,7 +40,7 @@ const DesignList = () => {
 		<h1>My Designs</h1>
 		<ul>
 			{files.map(file => (
-			<li key={file} className={list}>
+			<li key={file} style={{ 'listStyleType': 'upper-roman', 'cursor': 'pointer' }}>
 				<a target='_blank' rel='noopener noreferrer' onClick={() => openFile(file)}>{file}</a>
 				{/*<Link to="/">{file}</Link>*/}
 			</li>
@@ -52,8 +52,4 @@ const DesignList = () => {
 	</div>
 	);
 };
-const list = `
-      list-style-type: upper-roman;
-      cursor: pointer;
-`;
 export default DesignList;
