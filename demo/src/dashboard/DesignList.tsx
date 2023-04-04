@@ -38,6 +38,10 @@ const DesignList = () => {
 	return (
 	<div>
 		<h1>My Designs</h1>
+		<p>
+			<Link to={`/design/new`}>New Design</Link>
+		</p>
+		<hr />
 		<ul>
 			{files.map(file => (
 			<li key={file} style={{ 'listStyleType': 'upper-roman', 'cursor': 'pointer' }}>
@@ -46,9 +50,6 @@ const DesignList = () => {
 			</li>
 			))}
 		</ul>
-		<p>
-			<Link to={`/design/new`}>New Design</Link>
-		</p>
 	</div>
 	);
 };
