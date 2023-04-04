@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import styled from 'styled-components';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
@@ -39,7 +40,7 @@ const DesignList = () => {
 		<h1>My Designs</h1>
 		<ul>
 			{files.map(file => (
-			<li key={file}>
+			<li key={file} className={list}>
 				<a target='_blank' rel='noopener noreferrer' onClick={() => openFile(file)}>{file}</a>
 				{/*<Link to="/">{file}</Link>*/}
 			</li>
@@ -51,5 +52,8 @@ const DesignList = () => {
 	</div>
 	);
 };
-
+const list = `
+      list-style-type: upper-roman;
+      cursor: pointer;
+`;
 export default DesignList;

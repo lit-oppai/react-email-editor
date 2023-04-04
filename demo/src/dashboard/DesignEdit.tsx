@@ -113,7 +113,7 @@ const DesignEdit = () => {
 	return (
 	<Container>
 		<Bar>
-			<h1>React Email Editor (Demo)</h1>
+			<h1>React Email Editor (iceWhale)</h1>
 
 			<Link to={`/`}>Dashboard</Link>
 			<button onClick={saveDesign}>Save Design</button>
