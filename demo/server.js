@@ -19,6 +19,7 @@ app.get('/', (req, res) => {
 // 处理 GET 请求，返回当前目录的文件列表
 app.get('/files', (req, res) => {
 	const workspacePath = path.join(__dirname, 'workspace');
+	console.log('获取文件，路径：：', workspacePath);
 	const files = fs.readdirSync(workspacePath);
 	const fileNames = files.map((file) => path.parse(file).name);
 	res.send(fileNames);
@@ -28,6 +29,7 @@ app.get('/files', (req, res) => {
 app.get('/files/:filename', (req, res) => {
 	const { filename } = req.params;
 	const filePath = path.join(__dirname, 'workspace', filename);
+	console.log('修改文件，路径：：', filePath);
 	const content = fs.readFileSync(filePath + '.json', 'utf-8');
 	res.send(content);
 });
@@ -36,6 +38,7 @@ app.get('/files/:filename', (req, res) => {
 app.post('/files/:filename', (req, res) => {
 	const { filename } = req.params;
 	const filePath = path.join(__dirname, 'workspace', filename + '.json');
+	console.log('保存文件，路径：：', filePath);
 	fs.writeFileSync(filePath, JSON.stringify(req.body.content));
 	res.send('File saved successfully');
 });
