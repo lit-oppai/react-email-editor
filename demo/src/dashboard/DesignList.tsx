@@ -7,7 +7,7 @@ const DesignList = () => {
 	const navigate = useNavigate();
 
 	useEffect(() => {
-		axios.get('http://0.0.0.0:3456/files')
+		axios.get('http://127.0.0.1:3456/files')
 		.then(response => {
 			console.log(response.data);
 			setFiles(response.data);
@@ -18,7 +18,7 @@ const DesignList = () => {
 	}, []);
 
 	const openFile = (file) => {
-		axios.get(`http://0.0.0.0:3456/files/${file}`)
+		axios.get(`http://127.0.0.1:3456/files/${file}`)
 		.then(response => {
 			console.log(response.data);
 			const script = document.createElement('script');

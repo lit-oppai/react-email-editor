@@ -66,7 +66,7 @@ const DesignEdit = () => {
 		emailEditorRef.current?.saveDesign((design) => {
 			console.log('saveDesign', design);
 			filename = window.prompt('名字重复将会被覆盖\n请输入文件名字：：', filename || 'undefined');
-			axios.post(`http://0.0.0.0:3456/files/${filename}`, { content: design })
+			axios.post(`http://127.0.0.1:3456/files/${filename}`, { content: design })
 			.then(response => {
 				console.log('保存结果', response.data);
 			})
@@ -97,7 +97,7 @@ const DesignEdit = () => {
 		console.log('edit onload');
 
 		if (filename) {
-			axios.get(`http://0.0.0.0:3456/files/${filename}`)
+			axios.get(`http://127.0.0.1:3456/files/${filename}`)
 			.then(response => {
 				console.log('获取文件内容：：', response.data);
 				// let json = JSON.parse(response.data);
