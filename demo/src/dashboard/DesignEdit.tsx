@@ -67,13 +67,16 @@ const DesignEdit = () => {
 		emailEditorRef.current?.saveDesign((design) => {
 			console.log('saveDesign', design);
 			filename = window.prompt('名字重复将会被覆盖\n请输入文件名字：：', filename || 'undefined');
-			axios.post(`http://${localhost}:3456/files/${filename}`, { content: design })
-			.then(response => {
-				console.log('保存结果', response.data);
-			})
-			.catch(err => {
-				console.error(err);
-			});
+			if (filename) {
+				axios.post(`http://${localhost}:3456/files/${filename}`, { content: design })
+				.then(response => {
+					console.log('保存结果', response.data);
+				})
+				.catch(err => {
+					console.error(err);
+				});
+			}
+
 		});
 	};
 
