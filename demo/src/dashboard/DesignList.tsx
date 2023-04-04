@@ -2,12 +2,14 @@ import React, { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
+const localhost = window.location.hostname;
+
 const DesignList = () => {
 	const [files, setFiles] = useState([]);
 	const navigate = useNavigate();
 
 	useEffect(() => {
-		axios.get('http://127.0.0.1:3456/files')
+		axios.get(`http://${localhost}:3456/files`)
 		.then(response => {
 			console.log(response.data);
 			setFiles(response.data);
@@ -18,7 +20,7 @@ const DesignList = () => {
 	}, []);
 
 	const openFile = (file) => {
-		axios.get(`http://127.0.0.1:3456/files/${file}`)
+		axios.get(`http://${localhost}:3456/files/${file}`)
 		.then(response => {
 			console.log(response.data);
 			const script = document.createElement('script');
