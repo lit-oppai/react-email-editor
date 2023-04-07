@@ -9,6 +9,7 @@ const bodyParser = require('body-parser');
 app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
+app.use(express.static(path.join(__dirname, 'dist')));
 
 // 处理 GET 请求，返回 dist 文件下的 index.html
 app.get('/', (req, res) => {

@@ -1,0 +1,1304 @@
+{
+  "body": {
+    "id": "dOWX61OvcD",
+    "rows": [
+      {
+        "id": "_oWOrQ7Lhk",
+        "cells": [
+          1
+        ],
+        "values": {
+          "_meta": {
+            "htmlID": "u_row_1",
+            "htmlClassNames": "u_row"
+          },
+          "anchor": "",
+          "columns": false,
+          "padding": "0px",
+          "hideable": true,
+          "deletable": true,
+          "draggable": true,
+          "selectable": true,
+          "hideDesktop": false,
+          "duplicatable": true,
+          "backgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "size": "custom",
+            "repeat": "no-repeat",
+            "position": "center",
+            "fullWidth": true
+          },
+          "displayCondition": null,
+          "columnsBackgroundColor": ""
+        },
+        "columns": [
+          {
+            "id": "FfNTC--7Vd",
+            "values": {
+              "_meta": {
+                "htmlID": "u_column_1",
+                "htmlClassNames": "u_column"
+              },
+              "border": {},
+              "padding": "0px",
+              "backgroundColor": "#ffffff"
+            },
+            "contents": [
+              {
+                "id": "iVqeVa1tHF",
+                "type": "heading",
+                "values": {
+                  "text": "<strong>Web Personalization</strong>",
+                  "_meta": {
+                    "htmlID": "u_content_heading_1",
+                    "htmlClassNames": "u_content_heading"
+                  },
+                  "anchor": "",
+                  "fontSize": "35px",
+                  "hideable": true,
+                  "_override": {
+                    "mobile": {
+                      "fontSize": "24px",
+                      "lineHeight": "120%",
+                      "containerPadding": "40px 10px 20px"
+                    }
+                  },
+                  "deletable": true,
+                  "draggable": true,
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverColor": "#0000ee",
+                    "linkHoverUnderline": true
+                  },
+                  "textAlign": "center",
+                  "lineHeight": "140%",
+                  "selectable": true,
+                  "headingType": "h1",
+                  "hideDesktop": false,
+                  "duplicatable": true,
+                  "containerPadding": "60px 10px 30px",
+                  "displayCondition": null
+                }
+              },
+              {
+                "id": "M9pSTldfCQ",
+                "type": "image",
+                "values": {
+                  "src": {
+                    "url": "https://cdn.templates.unlayer.com/assets/1679295824138-Asset%201.png",
+                    "width": 599,
+                    "height": 446,
+                    "maxWidth": "50%",
+                    "autoWidth": false
+                  },
+                  "_meta": {
+                    "htmlID": "u_content_image_1",
+                    "htmlClassNames": "u_content_image"
+                  },
+                  "action": {
+                    "name": "web",
+                    "values": {
+                      "href": "",
+                      "target": "_blank"
+                    }
+                  },
+                  "anchor": "",
+                  "altText": "image",
+                  "hideable": true,
+                  "deletable": true,
+                  "draggable": true,
+                  "textAlign": "center",
+                  "selectable": true,
+                  "hideDesktop": false,
+                  "duplicatable": true,
+                  "containerPadding": "0px",
+                  "displayCondition": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bk6QLFYGD5",
+        "cells": [
+          1
+        ],
+        "values": {
+          "_meta": {
+            "htmlID": "u_row_2",
+            "htmlClassNames": "u_row"
+          },
+          "anchor": "",
+          "columns": false,
+          "padding": "0px",
+          "hideable": true,
+          "deletable": true,
+          "draggable": true,
+          "selectable": true,
+          "hideDesktop": false,
+          "duplicatable": true,
+          "backgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "size": "custom",
+            "repeat": "no-repeat",
+            "position": "center",
+            "fullWidth": true
+          },
+          "displayCondition": null,
+          "columnsBackgroundColor": ""
+        },
+        "columns": [
+          {
+            "id": "jrMxBriGgH",
+            "values": {
+              "_meta": {
+                "htmlID": "u_column_2",
+                "htmlClassNames": "u_column"
+              },
+              "border": {},
+              "padding": "0px",
+              "borderRadius": "0px",
+              "backgroundColor": "#ffffff"
+            },
+            "contents": [
+              {
+                "id": "lSaHBCo5fd",
+                "type": "text_deprecated",
+                "values": {
+                  "text": "<p style=\"line-height: 160%; font-size: 14px;\"><span style=\"font-family: Raleway, sans-serif; font-size: 16px; line-height: 25.6px;\"><strong>Hi David!</strong></span><span style=\"color: #e03e2d; font-size: 16px; line-height: 25.6px;\"><strong><span style=\"line-height: 25.6px; font-family: Raleway, sans-serif; font-size: 16px;\"> </span></strong></span></p>\n<p style=\"line-height: 160%; font-size: 14px;\"> </p>\n<p style=\"line-height: 160%; font-size: 14px;\"><span style=\"font-family: Raleway, sans-serif; font-size: 14px; line-height: 22.4px;\">Nam sodales sed nisi in posuere. Nulla sed nibh tincidunt, placerat nisl vel, tristique est. In vel facilisis massa. In tempus commodo sagittis. Fusce a felis at tellus pulvinar lacinia Vivamus placerat tortor molestie, porttitor ex sit amet, rutrum mi. Suspendisse ultrices viverra tristique. Morbi gravida quam quis massa pulvinar, id dictum lectus pellentesque. </span></p>\n<p style=\"line-height: 160%; font-size: 14px;\"> </p>\n<p style=\"line-height: 160%; font-size: 14px;\"><span style=\"font-family: Raleway, sans-serif; font-size: 14px; line-height: 22.4px;\">Vivamus placerat tortor molestie, porttitor ex sit amet, rutrum mi. Suspendisse ultrices viverra tristique.</span></p>",
+                  "_meta": {
+                    "htmlID": "u_content_text_deprecated_1",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "anchor": "",
+                  "hideable": true,
+                  "_override": {
+                    "mobile": {
+                      "textAlign": "center",
+                      "containerPadding": "40px 10px"
+                    }
+                  },
+                  "deletable": true,
+                  "draggable": true,
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverColor": "#0000ee",
+                    "linkHoverUnderline": true
+                  },
+                  "textAlign": "justify",
+                  "lineHeight": "160%",
+                  "selectable": true,
+                  "hideDesktop": false,
+                  "duplicatable": true,
+                  "containerPadding": "50px",
+                  "displayCondition": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "JJFuASzxvR",
+        "cells": [
+          1
+        ],
+        "values": {
+          "_meta": {
+            "htmlID": "u_row_3",
+            "htmlClassNames": "u_row"
+          },
+          "anchor": "",
+          "columns": false,
+          "padding": "0px",
+          "hideable": true,
+          "deletable": true,
+          "draggable": true,
+          "selectable": true,
+          "hideDesktop": false,
+          "duplicatable": true,
+          "backgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "size": "custom",
+            "repeat": "no-repeat",
+            "position": "center",
+            "fullWidth": true
+          },
+          "displayCondition": null,
+          "columnsBackgroundColor": ""
+        },
+        "columns": [
+          {
+            "id": "tvVEznU-j5",
+            "values": {
+              "_meta": {
+                "htmlID": "u_column_3",
+                "htmlClassNames": "u_column"
+              },
+              "border": {},
+              "padding": "0px",
+              "borderRadius": "0px",
+              "backgroundColor": "#f5fbff"
+            },
+            "contents": [
+              {
+                "id": "dm1aXZSDiR",
+                "type": "heading",
+                "values": {
+                  "text": "<strong>1. Planning and Strategy:</strong>",
+                  "_meta": {
+                    "htmlID": "u_content_heading_4",
+                    "htmlClassNames": "u_content_heading"
+                  },
+                  "anchor": "",
+                  "fontSize": "22px",
+                  "hideable": true,
+                  "_override": {
+                    "mobile": {
+                      "textAlign": "center",
+                      "containerPadding": "40px 10px 0px"
+                    }
+                  },
+                  "deletable": true,
+                  "draggable": true,
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverColor": "#0000ee",
+                    "linkHoverUnderline": true
+                  },
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "selectable": true,
+                  "headingType": "h1",
+                  "hideDesktop": false,
+                  "duplicatable": true,
+                  "containerPadding": "50px 10px 0px 50px",
+                  "displayCondition": null
+                }
+              },
+              {
+                "id": "3mOkDbQihI",
+                "type": "text",
+                "values": {
+                  "text": "<p style=\"line-height: 140%;\">Fusce a felis at tellus pulvinar lacinia Vivamus placerat tortor molestie, porttitor ex sit amet, rutrum mi.</p>",
+                  "_meta": {
+                    "htmlID": "u_content_text_4",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "anchor": "",
+                  "hideable": true,
+                  "_override": {
+                    "mobile": {
+                      "textAlign": "center",
+                      "containerPadding": "10px 10px 25px"
+                    }
+                  },
+                  "deletable": true,
+                  "draggable": true,
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverColor": "#0000ee",
+                    "linkHoverUnderline": true
+                  },
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "selectable": true,
+                  "hideDesktop": false,
+                  "duplicatable": true,
+                  "containerPadding": "10px 50px 25px",
+                  "displayCondition": null
+                }
+              },
+              {
+                "id": "8KKbEo-K-G",
+                "type": "image",
+                "values": {
+                  "src": {
+                    "url": "https://cdn.templates.unlayer.com/assets/1679296604705-Asset%202.png",
+                    "width": 624,
+                    "height": 640,
+                    "maxWidth": "50%",
+                    "autoWidth": false
+                  },
+                  "_meta": {
+                    "htmlID": "u_content_image_2",
+                    "htmlClassNames": "u_content_image"
+                  },
+                  "action": {
+                    "name": "web",
+                    "values": {
+                      "href": "",
+                      "target": "_blank"
+                    }
+                  },
+                  "anchor": "",
+                  "altText": "image",
+                  "hideable": true,
+                  "deletable": true,
+                  "draggable": true,
+                  "textAlign": "center",
+                  "selectable": true,
+                  "hideDesktop": false,
+                  "duplicatable": true,
+                  "containerPadding": "0px",
+                  "displayCondition": null
+                }
+              },
+              {
+                "id": "1bGXawT2ba",
+                "type": "text",
+                "values": {
+                  "text": "<p style=\"line-height: 140%;\">Fusce a felis at tellus pulvinar lacinia Vivamus placerat.</p>",
+                  "_meta": {
+                    "htmlID": "u_content_text_5",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "anchor": "",
+                  "hideable": true,
+                  "_override": {
+                    "mobile": {
+                      "textAlign": "center",
+                      "containerPadding": "25px 10px 10px"
+                    }
+                  },
+                  "deletable": true,
+                  "draggable": true,
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverColor": "#0000ee",
+                    "linkHoverUnderline": true
+                  },
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "selectable": true,
+                  "hideDesktop": false,
+                  "duplicatable": true,
+                  "containerPadding": "25px 50px 10px",
+                  "displayCondition": null
+                }
+              },
+              {
+                "id": "Dy-gNd_cHs",
+                "type": "heading",
+                "values": {
+                  "text": "<strong>My Advice</strong>",
+                  "_meta": {
+                    "htmlID": "u_content_heading_5",
+                    "htmlClassNames": "u_content_heading"
+                  },
+                  "anchor": "",
+                  "fontSize": "22px",
+                  "hideable": true,
+                  "_override": {
+                    "mobile": {
+                      "textAlign": "center",
+                      "containerPadding": "10px 10px 0px"
+                    }
+                  },
+                  "deletable": true,
+                  "draggable": true,
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverColor": "#0000ee",
+                    "linkHoverUnderline": true
+                  },
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "selectable": true,
+                  "headingType": "h1",
+                  "hideDesktop": false,
+                  "duplicatable": true,
+                  "containerPadding": "10px 10px 0px 50px",
+                  "displayCondition": null
+                }
+              },
+              {
+                "id": "JqlZBv9jx_",
+                "type": "text",
+                "values": {
+                  "text": "<ul>\n<li style=\"line-height: 19.6px;\">Nam sodales sed nisi in posuere. Nulla sed nibh tincidunt, placerat nisl vel, tristique est. In vel facilisis massa. In tempus commodo sagittis. Fusce a felis at tellus pulvinar lacinia</li>\n<li style=\"line-height: 19.6px;\">Nam sodales sed nisi in posuere. Nulla sed nibh tincidunt, placerat nisl vel, tristique est. In vel facilisis massa. In tempus commodo sagittis. Fusce a felis at tellus pulvinar lacinia.</li>\n</ul>",
+                  "_meta": {
+                    "htmlID": "u_content_text_3",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "anchor": "",
+                  "hideable": true,
+                  "_override": {
+                    "mobile": {
+                      "textAlign": "center",
+                      "containerPadding": "0px 10px 40px"
+                    }
+                  },
+                  "deletable": true,
+                  "draggable": true,
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverColor": "#0000ee",
+                    "linkHoverUnderline": true
+                  },
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "selectable": true,
+                  "hideDesktop": false,
+                  "duplicatable": true,
+                  "containerPadding": "10px 50px 50px",
+                  "displayCondition": null
+                }
+              },
+              {
+                "id": "fTgagMRME6",
+                "type": "button",
+                "values": {
+                  "href": {
+                    "name": "web",
+                    "attrs": {
+                      "href": "{{href}}",
+                      "target": "{{target}}"
+                    },
+                    "values": {
+                      "href": "https://www.unlayer.com",
+                      "target": "_blank"
+                    }
+                  },
+                  "size": {
+                    "width": "35%",
+                    "autoWidth": false
+                  },
+                  "text": "<span style=\"line-height: 16.8px;\">Book a Demo</span>",
+                  "_meta": {
+                    "htmlID": "u_content_button_1",
+                    "htmlClassNames": "u_content_button"
+                  },
+                  "anchor": "",
+                  "border": {},
+                  "padding": "10px 20px",
+                  "fontSize": "14px",
+                  "hideable": true,
+                  "_override": {
+                    "mobile": {
+                      "size": {
+                        "width": "50%",
+                        "autoWidth": false
+                      }
+                    }
+                  },
+                  "deletable": true,
+                  "draggable": true,
+                  "textAlign": "center",
+                  "lineHeight": "120%",
+                  "selectable": true,
+                  "borderRadius": "4px",
+                  "buttonColors": {
+                    "color": "#FFFFFF",
+                    "hoverColor": "#FFFFFF",
+                    "backgroundColor": "#f0c10c",
+                    "hoverBackgroundColor": "#3AAEE0"
+                  },
+                  "duplicatable": true,
+                  "calculatedWidth": 203,
+                  "calculatedHeight": 37,
+                  "containerPadding": "10px",
+                  "displayCondition": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "_v4qWbYi8g",
+        "cells": [
+          1
+        ],
+        "values": {
+          "_meta": {
+            "htmlID": "u_row_4",
+            "htmlClassNames": "u_row"
+          },
+          "anchor": "",
+          "columns": false,
+          "padding": "0px",
+          "hideable": true,
+          "deletable": true,
+          "draggable": true,
+          "selectable": true,
+          "hideDesktop": false,
+          "duplicatable": true,
+          "backgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "size": "custom",
+            "repeat": "no-repeat",
+            "position": "center",
+            "fullWidth": true
+          },
+          "displayCondition": null,
+          "columnsBackgroundColor": ""
+        },
+        "columns": [
+          {
+            "id": "VGP3mzPbKJ",
+            "values": {
+              "_meta": {
+                "htmlID": "u_column_4",
+                "htmlClassNames": "u_column"
+              },
+              "border": {},
+              "padding": "0px",
+              "borderRadius": "0px",
+              "backgroundColor": "#ffffff"
+            },
+            "contents": [
+              {
+                "id": "7AdxQr9mpu",
+                "type": "heading",
+                "values": {
+                  "text": "<strong>1. Planning and Strategy:</strong>",
+                  "_meta": {
+                    "htmlID": "u_content_heading_3",
+                    "htmlClassNames": "u_content_heading"
+                  },
+                  "anchor": "",
+                  "fontSize": "22px",
+                  "hideable": true,
+                  "_override": {
+                    "mobile": {
+                      "containerPadding": "40px 10px 0px"
+                    }
+                  },
+                  "deletable": true,
+                  "draggable": true,
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverColor": "#0000ee",
+                    "linkHoverUnderline": true
+                  },
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "selectable": true,
+                  "headingType": "h1",
+                  "hideDesktop": false,
+                  "duplicatable": true,
+                  "containerPadding": "50px 10px 0px 50px",
+                  "displayCondition": null
+                }
+              },
+              {
+                "id": "sbhozaD4yf",
+                "type": "text",
+                "values": {
+                  "text": "<p style=\"line-height: 140%;\">Fusce a felis at tellus pulvinar lacinia Vivamus placerat tortor molestie, porttitor ex sit amet, rutrum mi.</p>",
+                  "_meta": {
+                    "htmlID": "u_content_text_2",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "anchor": "",
+                  "hideable": true,
+                  "_override": {
+                    "mobile": {
+                      "textAlign": "center",
+                      "containerPadding": "10px 10px 25px"
+                    }
+                  },
+                  "deletable": true,
+                  "draggable": true,
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverColor": "#0000ee",
+                    "linkHoverUnderline": true
+                  },
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "selectable": true,
+                  "hideDesktop": false,
+                  "duplicatable": true,
+                  "containerPadding": "10px 50px 25px",
+                  "displayCondition": null
+                }
+              },
+              {
+                "id": "uCU1ZdSgjF",
+                "type": "image",
+                "values": {
+                  "src": {
+                    "url": "https://cdn.templates.unlayer.com/assets/1679298060111-Asset%203.png",
+                    "width": 597,
+                    "height": 530,
+                    "maxWidth": "50%",
+                    "autoWidth": false
+                  },
+                  "_meta": {
+                    "htmlID": "u_content_image_3",
+                    "htmlClassNames": "u_content_image"
+                  },
+                  "action": {
+                    "name": "web",
+                    "values": {
+                      "href": "",
+                      "target": "_blank"
+                    }
+                  },
+                  "anchor": "",
+                  "altText": "image",
+                  "hideable": true,
+                  "deletable": true,
+                  "draggable": true,
+                  "textAlign": "center",
+                  "selectable": true,
+                  "hideDesktop": false,
+                  "duplicatable": true,
+                  "containerPadding": "0px",
+                  "displayCondition": null
+                }
+              },
+              {
+                "id": "oXQQUvOYZS",
+                "type": "text",
+                "values": {
+                  "text": "<p style=\"line-height: 140%;\">Fusce a felis at tellus pulvinar lacinia Vivamus placerat.</p>\n<ul>\n<li style=\"line-height: 19.6px;\">Nam sodales sed nisi in posuere. Nulla sed nibh tincidunt, placerat nisl vel, tristique est. In vel facilisis massa. In tempus commodo sagittis. Fusce a felis at tellus pulvinar lacinia</li>\n</ul>",
+                  "_meta": {
+                    "htmlID": "u_content_text_6",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "anchor": "",
+                  "hideable": true,
+                  "_override": {
+                    "mobile": {
+                      "textAlign": "center",
+                      "containerPadding": "25px 10px"
+                    }
+                  },
+                  "deletable": true,
+                  "draggable": true,
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverColor": "#0000ee",
+                    "linkHoverUnderline": true
+                  },
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "selectable": true,
+                  "hideDesktop": false,
+                  "duplicatable": true,
+                  "containerPadding": "25px 50px",
+                  "displayCondition": null
+                }
+              },
+              {
+                "id": "AyNUJ18bxL",
+                "type": "heading",
+                "values": {
+                  "text": "Well, almost...",
+                  "_meta": {
+                    "htmlID": "u_content_heading_2",
+                    "htmlClassNames": "u_content_heading"
+                  },
+                  "anchor": "",
+                  "fontSize": "22px",
+                  "hideable": true,
+                  "_override": {
+                    "mobile": {
+                      "textAlign": "center",
+                      "containerPadding": "0px 10px"
+                    }
+                  },
+                  "deletable": true,
+                  "draggable": true,
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverColor": "#0000ee",
+                    "linkHoverUnderline": true
+                  },
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "selectable": true,
+                  "headingType": "h1",
+                  "hideDesktop": false,
+                  "duplicatable": true,
+                  "containerPadding": "0px 10px 0px 50px",
+                  "displayCondition": null
+                }
+              },
+              {
+                "id": "33SQO1iDe1",
+                "type": "text",
+                "values": {
+                  "text": "<p style=\"line-height: 140%;\">Lorem ipsum at tellus pulvinar lacinia Vivamus placerat.</p>",
+                  "_meta": {
+                    "htmlID": "u_content_text_7",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "anchor": "",
+                  "hideable": true,
+                  "_override": {
+                    "mobile": {
+                      "textAlign": "center",
+                      "containerPadding": "10px 10px 40px"
+                    }
+                  },
+                  "deletable": true,
+                  "draggable": true,
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverColor": "#0000ee",
+                    "linkHoverUnderline": true
+                  },
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "selectable": true,
+                  "hideDesktop": false,
+                  "duplicatable": true,
+                  "containerPadding": "10px 50px 50px",
+                  "displayCondition": null
+                }
+              },
+              {
+                "id": "-L5-5THOdT",
+                "type": "button",
+                "values": {
+                  "href": {
+                    "name": "web",
+                    "attrs": {
+                      "href": "{{href}}",
+                      "target": "{{target}}"
+                    },
+                    "values": {
+                      "href": "https://www.unlayer.com",
+                      "target": "_blank"
+                    }
+                  },
+                  "size": {
+                    "width": "35%",
+                    "autoWidth": false
+                  },
+                  "text": "<span style=\"line-height: 16.8px;\">Visit Us</span>",
+                  "_meta": {
+                    "htmlID": "u_content_button_2",
+                    "htmlClassNames": "u_content_button"
+                  },
+                  "anchor": "",
+                  "border": {},
+                  "padding": "10px",
+                  "fontSize": "14px",
+                  "hideable": true,
+                  "_override": {
+                    "mobile": {
+                      "size": {
+                        "width": "50%",
+                        "autoWidth": false
+                      }
+                    }
+                  },
+                  "deletable": true,
+                  "draggable": true,
+                  "textAlign": "center",
+                  "lineHeight": "120%",
+                  "selectable": true,
+                  "borderRadius": "4px",
+                  "buttonColors": {
+                    "color": "#FFFFFF",
+                    "hoverColor": "#FFFFFF",
+                    "backgroundColor": "#f0c10c",
+                    "hoverBackgroundColor": "#3AAEE0"
+                  },
+                  "duplicatable": true,
+                  "calculatedWidth": 203,
+                  "calculatedHeight": 37,
+                  "containerPadding": "10px",
+                  "displayCondition": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "xqprdOPajv",
+        "cells": [
+          1,
+          2
+        ],
+        "values": {
+          "_meta": {
+            "htmlID": "u_row_5",
+            "htmlClassNames": "u_row"
+          },
+          "anchor": "",
+          "columns": false,
+          "padding": "0px",
+          "hideable": true,
+          "deletable": true,
+          "draggable": true,
+          "selectable": true,
+          "hideDesktop": false,
+          "duplicatable": true,
+          "backgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "size": "custom",
+            "repeat": "no-repeat",
+            "position": "center",
+            "fullWidth": true
+          },
+          "displayCondition": null,
+          "columnsBackgroundColor": ""
+        },
+        "columns": [
+          {
+            "id": "iFIGIQWWH5",
+            "values": {
+              "_meta": {
+                "htmlID": "u_column_5",
+                "htmlClassNames": "u_column"
+              },
+              "border": {},
+              "padding": "0px",
+              "borderRadius": "0px",
+              "backgroundColor": "#f5fbff"
+            },
+            "contents": [
+              {
+                "id": "0wU2DhkMF3",
+                "type": "image",
+                "values": {
+                  "src": {
+                    "url": "https://cdn.templates.unlayer.com/assets/1672813866294-8.png",
+                    "width": 1036,
+                    "height": 1036,
+                    "maxWidth": "77%",
+                    "autoWidth": false
+                  },
+                  "_meta": {
+                    "htmlID": "u_content_image_4",
+                    "htmlClassNames": "u_content_image"
+                  },
+                  "action": {
+                    "name": "web",
+                    "values": {
+                      "href": "",
+                      "target": "_blank"
+                    }
+                  },
+                  "anchor": "",
+                  "altText": "image",
+                  "hideable": true,
+                  "_override": {
+                    "mobile": {
+                      "src": {
+                        "maxWidth": "50%",
+                        "autoWidth": false
+                      },
+                      "containerPadding": "40px 10px 0px"
+                    }
+                  },
+                  "deletable": true,
+                  "draggable": true,
+                  "textAlign": "center",
+                  "selectable": true,
+                  "hideDesktop": false,
+                  "duplicatable": true,
+                  "containerPadding": "50px 10px",
+                  "displayCondition": null
+                }
+              }
+            ]
+          },
+          {
+            "id": "IOscP2e8IJ",
+            "values": {
+              "_meta": {
+                "htmlID": "u_column_6",
+                "htmlClassNames": "u_column"
+              },
+              "border": {},
+              "padding": "0px",
+              "borderRadius": "0px",
+              "backgroundColor": "#f5fbff"
+            },
+            "contents": [
+              {
+                "id": "EF242uyVBs",
+                "type": "heading",
+                "values": {
+                  "text": "<strong>Scarlett John</strong>",
+                  "_meta": {
+                    "htmlID": "u_content_heading_6",
+                    "htmlClassNames": "u_content_heading"
+                  },
+                  "anchor": "",
+                  "fontSize": "22px",
+                  "hideable": true,
+                  "_override": {
+                    "mobile": {
+                      "textAlign": "center",
+                      "containerPadding": "20px 10px 0px"
+                    }
+                  },
+                  "deletable": true,
+                  "draggable": true,
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverColor": "#0000ee",
+                    "linkHoverUnderline": true
+                  },
+                  "textAlign": "left",
+                  "fontFamily": {
+                    "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,700",
+                    "label": "Open Sans",
+                    "value": "'Open Sans',sans-serif",
+                    "defaultFont": true
+                  },
+                  "lineHeight": "140%",
+                  "selectable": true,
+                  "headingType": "h1",
+                  "hideDesktop": false,
+                  "duplicatable": true,
+                  "containerPadding": "50px 10px 0px",
+                  "displayCondition": null
+                }
+              },
+              {
+                "id": "0ChpZy73wD",
+                "type": "text_deprecated",
+                "values": {
+                  "text": "<p style=\"font-size: 14px; line-height: 140%;\"><span style=\"font-family: 'Open Sans', sans-serif; font-size: 14px; line-height: 19.6px;\">Sales Manager</span></p>",
+                  "_meta": {
+                    "htmlID": "u_content_text_deprecated_2",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "color": "#3d3d3d",
+                  "anchor": "",
+                  "hideable": true,
+                  "_override": {
+                    "mobile": {
+                      "textAlign": "center"
+                    }
+                  },
+                  "deletable": true,
+                  "draggable": true,
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverColor": "#0000ee",
+                    "linkHoverUnderline": true
+                  },
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "selectable": true,
+                  "hideDesktop": false,
+                  "duplicatable": true,
+                  "containerPadding": "0px 10px",
+                  "displayCondition": null
+                }
+              },
+              {
+                "id": "o0RAGKHek2",
+                "type": "social",
+                "values": {
+                  "_meta": {
+                    "htmlID": "u_content_social_1",
+                    "htmlClassNames": "u_content_social"
+                  },
+                  "align": "left",
+                  "icons": {
+                    "icons": [
+                      {
+                        "url": "https://www.facebook.com/unlayer",
+                        "name": "Facebook"
+                      },
+                      {
+                        "url": "https://twitter.com/unlayerapp",
+                        "name": "Twitter"
+                      },
+                      {
+                        "url": "https://www.linkedin.com/company/unlayer/mycompany/",
+                        "name": "LinkedIn"
+                      },
+                      {
+                        "url": "https://www.instagram.com/unlayer_official/",
+                        "name": "Instagram"
+                      },
+                      {
+                        "url": "https://hu.pinterest.com/unlayer/",
+                        "name": "Pinterest"
+                      }
+                    ],
+                    "editor": {
+                      "data": {
+                        "customIcons": [],
+                        "customOptions": [],
+                        "showDefaultIcons": true,
+                        "showDefaultOptions": true
+                      }
+                    },
+                    "iconType": "circle-black"
+                  },
+                  "anchor": "",
+                  "spacing": 10,
+                  "hideable": true,
+                  "_override": {
+                    "mobile": {
+                      "containerPadding": "10px 10px 10px 55px"
+                    }
+                  },
+                  "deletable": true,
+                  "draggable": true,
+                  "selectable": true,
+                  "hideDesktop": false,
+                  "duplicatable": true,
+                  "containerPadding": "10px",
+                  "displayCondition": null
+                }
+              },
+              {
+                "id": "R4yxhxvtdZ",
+                "type": "text_deprecated",
+                "values": {
+                  "text": "<p style=\"font-size: 14px; line-height: 140%;\"><span style=\"font-family: 'Open Sans', sans-serif; font-size: 14px; line-height: 19.6px;\">+123 456 7890  |  unlayer@gmail.com</span></p>",
+                  "_meta": {
+                    "htmlID": "u_content_text_deprecated_3",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "color": "#3d3d3d",
+                  "anchor": "",
+                  "hideable": true,
+                  "_override": {
+                    "mobile": {
+                      "textAlign": "center",
+                      "containerPadding": "0px 10px 20px"
+                    }
+                  },
+                  "deletable": true,
+                  "draggable": true,
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverColor": "#0000ee",
+                    "linkHoverUnderline": true
+                  },
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "selectable": true,
+                  "hideDesktop": false,
+                  "duplicatable": true,
+                  "containerPadding": "0px 10px 10px",
+                  "displayCondition": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "IpdNxuNV6Z",
+        "cells": [
+          1
+        ],
+        "values": {
+          "_meta": {
+            "htmlID": "u_row_6",
+            "htmlClassNames": "u_row"
+          },
+          "anchor": "",
+          "columns": false,
+          "padding": "0px",
+          "hideable": true,
+          "deletable": true,
+          "draggable": true,
+          "selectable": true,
+          "hideDesktop": false,
+          "duplicatable": true,
+          "backgroundColor": "",
+          "backgroundImage": {
+            "url": "",
+            "size": "custom",
+            "repeat": "no-repeat",
+            "position": "center",
+            "fullWidth": true
+          },
+          "displayCondition": null,
+          "columnsBackgroundColor": ""
+        },
+        "columns": [
+          {
+            "id": "Ao_vIwldH9",
+            "values": {
+              "_meta": {
+                "htmlID": "u_column_7",
+                "htmlClassNames": "u_column"
+              },
+              "border": {},
+              "padding": "0px",
+              "borderRadius": "0px",
+              "backgroundColor": "#f5fbff"
+            },
+            "contents": [
+              {
+                "id": "hPw9p4H0jL",
+                "type": "divider",
+                "values": {
+                  "_meta": {
+                    "htmlID": "u_content_divider_1",
+                    "htmlClassNames": "u_content_divider"
+                  },
+                  "width": "100%",
+                  "anchor": "",
+                  "border": {
+                    "borderTopColor": "#BBBBBB",
+                    "borderTopStyle": "solid",
+                    "borderTopWidth": "1px"
+                  },
+                  "hideable": true,
+                  "deletable": true,
+                  "draggable": true,
+                  "textAlign": "center",
+                  "selectable": true,
+                  "hideDesktop": false,
+                  "duplicatable": true,
+                  "containerPadding": "0px 0px 10px",
+                  "displayCondition": null
+                }
+              },
+              {
+                "id": "vBtKeI1Xhu",
+                "type": "text",
+                "values": {
+                  "text": "<p style=\"line-height: 140%;\">Lorem ipsum at tellus pulvinar lacinia Vivamus placerat.</p>",
+                  "_meta": {
+                    "htmlID": "u_content_text_1",
+                    "htmlClassNames": "u_content_text"
+                  },
+                  "anchor": "",
+                  "hideable": true,
+                  "_override": {
+                    "mobile": {
+                      "textAlign": "center",
+                      "containerPadding": "10px 10px 40px"
+                    }
+                  },
+                  "deletable": true,
+                  "draggable": true,
+                  "linkStyle": {
+                    "inherit": true,
+                    "linkColor": "#0000ee",
+                    "linkUnderline": true,
+                    "linkHoverColor": "#0000ee",
+                    "linkHoverUnderline": true
+                  },
+                  "textAlign": "left",
+                  "lineHeight": "140%",
+                  "selectable": true,
+                  "hideDesktop": false,
+                  "duplicatable": true,
+                  "containerPadding": "10px 50px 25px",
+                  "displayCondition": null
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "values": {
+      "_meta": {
+        "htmlID": "u_body",
+        "htmlClassNames": "u_body"
+      },
+      "linkStyle": {
+        "body": true,
+        "linkColor": "#0000ee",
+        "linkUnderline": true,
+        "linkHoverColor": "#0000ee",
+        "linkHoverUnderline": true
+      },
+      "textColor": "#000000",
+      "fontFamily": {
+        "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,700",
+        "label": "Open Sans",
+        "value": "'Open Sans',sans-serif",
+        "weights": null,
+        "defaultFont": true
+      },
+      "popupWidth": "600px",
+      "popupHeight": "auto",
+      "borderRadius": "10px",
+      "contentAlign": "center",
+      "contentWidth": 600,
+      "popupPosition": "center",
+      "preheaderText": "",
+      "backgroundColor": "#ecf0f1",
+      "backgroundImage": {
+        "url": "",
+        "size": "custom",
+        "repeat": "no-repeat",
+        "position": "center",
+        "fullWidth": true
+      },
+      "contentVerticalAlign": "center",
+      "popupBackgroundColor": "#FFFFFF",
+      "popupBackgroundImage": {
+        "url": "",
+        "size": "cover",
+        "repeat": "no-repeat",
+        "position": "center",
+        "fullWidth": true
+      },
+      "popupCloseButton_action": {
+        "name": "close_popup",
+        "attrs": {
+          "onClick": "document.querySelector('.u-popup-container').style.display = 'none';"
+        }
+      },
+      "popupCloseButton_margin": "0px",
+      "popupCloseButton_position": "top-right",
+      "popupCloseButton_iconColor": "#000000",
+      "popupOverlay_backgroundColor": "rgba(0, 0, 0, 0.1)",
+      "popupCloseButton_borderRadius": "0px",
+      "popupCloseButton_backgroundColor": "#DDDDDD"
+    }
+  },
+  "counters": {
+    "u_row": 6,
+    "u_column": 7,
+    "u_content_text": 7,
+    "u_content_image": 4,
+    "u_content_button": 2,
+    "u_content_social": 1,
+    "u_content_divider": 1,
+    "u_content_heading": 6,
+    "u_content_text_deprecated": 3
+  },
+  "schemaVersion": 12
+}
