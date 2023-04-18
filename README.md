@@ -1,3 +1,19 @@
+# develop road
+
+- [ ] 本地化图片
+- [ ] 本地化资源
+
+
+
+
+
+
+
+
+
+
+-----
+
 # React Email Editor
 
 The excellent drag-n-drop email editor by [Unlayer](https://unlayer.com/embed) as a [React.js](http://facebook.github.io/react) _wrapper component_. This is the most powerful and developer friendly visual email builder for your app.
